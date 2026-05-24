@@ -18,13 +18,12 @@ A1rq - 37593114
 
 алгоритмы:
 
-1. `quick_std`
-2. `merge_std`
-3. `merge_lcp`
-4. `string_quick3`
-5. `msd_plain`
-6. `msd_switch`
-
+1. `quick_std` (стандартный QuickSort)
+2. `merge_std` (стандартный MergeSort)
+3. `merge_lcp` (String MergeSort с LCP)
+4. `string_quick3` (тернарный String QuickSort)
+5. `msd_plain` (MSD Radix Sort без переключения)
+6. `msd_switch` (MSD Radix Sort с переключением на Quick)
 ## Файлы
 
 `research.cpp` — `StringGenerator` + `StringSortTester`, запуск эксперимента
